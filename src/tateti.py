@@ -1,5 +1,5 @@
-from jugador import Jugador
-from tablero import Tablero
+from src.jugador import Jugador
+from src.tablero import Tablero
 
 
 class Tateti:

@@ -1,9 +1,8 @@
-from tablero import PosOcupadaException
+from src.tablero import PosOcupadaException
+from src.tateti import Tateti
 
-from tateti import Tateti
 
-
-def main():
+def iniciar_cli():
     print("Bienvenidos al Tateti")
 
     juego = Tateti()
@@ -41,7 +40,3 @@ def main():
     else:
         print("\n\n---------->  JUEGO TERMINADO <----------")
         print("Empate.")
-
-
-if __name__ == '__main__':
-    main()
